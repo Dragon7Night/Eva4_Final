@@ -48,14 +48,23 @@
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3">
-              <a class="btn btn-primary w-100 fw-bold" href="{% url 'data_reserva_api' %}">Data de Reserva API</a>
+              <a class="btn btn-primary w-100 fw-bold" href="{% comment %} {% url 'crud-cargo-api/' %} {% endcomment %}">CRUD de Cargo API</a>
             </div>
-
+            
+            <div class="col-12 col-sm-6 col-lg-3">
+                <a class="btn btn-primary w-100 fw-bold" href="{% url 'data_reserva_api' %}">Data de Reserva API</a>
+            </div>
+            
+            <div class="col-12 col-sm-6 col-lg-3">
+              <a class="btn btn-primary w-100 fw-bold" href=" {% comment %} {% url 'crud-reserva-api/' %} {% endcomment %}">CRUD de Reserva API</a>
+            </div>
           </div>
         </div>
 
       </div>
     </div>
+
+    <p class="text-center">Para el CRUD de las APIs debe agregar la ID en la urls</p>
 
   </main>
 
