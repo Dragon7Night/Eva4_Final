@@ -45,6 +45,10 @@
               <a href="{% url 'eliminar_reserva' reserva.id %}" class="mx-2 text-danger">
                 <i class="fa-solid fa-trash"></i>
               </a>
+
+              <a href="{% url 'crud_reserva_api' reserva.id %}" class="mx-2 text-primary">
+                <i class="bi bi-folder2-open"></i>
+              </a>
             </td>
           </tr>
           {% endfor %}
